@@ -22,5 +22,3 @@ echo "Nama Customer: $customer";
 echo "<br> Pilihan Produk: $produk";
 echo "<br> Jumlah beli: $jumlah";
 echo "<br> Total Belanja: $total ";
-
-

@@ -11,21 +11,20 @@
 <body>
     <h2 class="text-center">Form Nilai Siswa</h2>
     <hr>
-
     <form class="mr-5 ml-5" action="proses_nilai.php" method="get">
         <div class="form-group row">
             <label for="nama" class="col-4 col-form-label">Nama</label>
             <div class="col-8">
-                <input id="nama" name="nama" type="text" class="form-control" required="required">
+                <input id="nama" name="nama" type="text" required="required" class="form-control">
             </div>
         </div>
         <div class="form-group row">
             <label for="matkul" class="col-4 col-form-label">Mata Kuliah</label>
             <div class="col-8">
-                <select id="matkul" name="matkul" class="custom-select" required="required">
+                <select id="matkul" name="matkul" required="required" class="custom-select">
                     <option value="Pemrograman Web">Pemrograman Web</option>
-                    <option value="B.Inggris">B.Inggris</option>
-                    <option value="Statistikka">Statistika</option>
+                    <option value="Bahasa Inggris">Bahasa Inggris</option>
+                    <option value="Statistika">Statistika</option>
                 </select>
             </div>
         </div>
